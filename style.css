@@ -1,5 +1,5 @@
 html {
-    background: linear-gradient(135deg, #eceef1 0%, #dee3eb 100%);
+    background: linear-gradient(135deg, #e0e4e8 0%, #c9d6ff 100%);
     background-attachment: fixed;
     min-height: 100vh;
 }
@@ -20,6 +20,7 @@ header {
     color: white;
     border-radius: 12px;
     margin-bottom: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 h1 { margin: 0; font-size: 2.5rem; }
@@ -54,27 +55,27 @@ h2 {
 }
 
 .skill-category {
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     padding: 15px;
-    border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
 }
 
 .project-card {
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     padding: 25px;
-    margin: 20px 0;
-    border-radius: 10px;
-    border-left: 5px solid #e17055;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.07);
+    margin: 30px 0;
+    border-radius: 15px;
+    border-left: 6px solid #e17055;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 .tags {
