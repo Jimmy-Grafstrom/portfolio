@@ -109,5 +109,27 @@
     <footer>
         <p>&copy; 2026 Jimmy Grafström | Updated March 2026</p>
     </footer>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        // Lightbox logic
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const captionText = document.getElementById('caption');
+
+        document.querySelectorAll('.gallery-item img').forEach(img => {
+            img.onclick = function() {
+                lightbox.style.display = "block";
+                lightboxImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+        });
+    </script>
 </body>
 </html>
