@@ -86,6 +86,45 @@ h2 {
     text-decoration: underline;
 }
 
+.project-gallery {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #e17055 #f8f9fa;
+}
+
+.gallery-item {
+    flex: 0 0 auto;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item img:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item span {
+    font-size: 0.8rem;
+    color: #636e72;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
 footer {
     text-align: center;
     margin-top: 60px;
