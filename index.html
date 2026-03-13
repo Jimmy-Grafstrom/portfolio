@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jimmy Grafström | Java Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,8 +27,10 @@
                 I am looking for an internship (LIA) position from <strong>November 9, 2026, to June 4, 2027</strong>.
             </p>
             <p>
-                Driven Software Developer with a strong focus on <strong>Java</strong> and backend architecture.
-                I enjoy building robust, scalable applications and solving complex logic puzzles through clean code.
+                Driven **Java Developer** with a deep interest in backend architecture, security, and system reliability. I specialize in building robust, scalable applications and enjoy solving complex logic puzzles through clean, maintainable code.
+            </p>
+            <p>
+                Beyond the Java ecosystem, I am a dedicated **Linux enthusiast** (Arch/Fedora). I value a work culture built on trust and collaboration, and I believe in taking full responsibility for the entire development lifecycle—ensuring high-quality results from the first line of code to production deployment.
             </p>
         </section>
 
@@ -33,16 +38,20 @@
             <h2>Technical Stack</h2>
             <div class="skills-container">
                 <div class="skill-category">
-                    <strong>Languages:</strong> Java (8/11/17+), SQL
+                    <strong>Languages</strong>
+                    Java (8/11/17/21), SQL, TypeScript
                 </div>
                 <div class="skill-category">
-                    <strong>Frameworks:</strong> Spring Boot, Spring Security, Hibernate
+                    <strong>Frameworks</strong>
+                    Spring Boot, Spring Security, Hibernate, Jakarta EE
                 </div>
                 <div class="skill-category">
-                    <strong>Tools:</strong> Maven, Docker, Git, JUnit
+                    <strong>Infrastructure</strong>
+                    Docker, Maven, Jenkins, Git, Cloudflare, Nginx
                 </div>
                 <div class="skill-category">
-                    <strong>Databases:</strong> PostgreSQL, MySQL, MongoDB
+                    <strong>Databases</strong>
+                    MySQL (HeatWave), PostgreSQL, MongoDB, H2
                 </div>
             </div>
         </section>
@@ -52,8 +61,8 @@
             
             <div class="project-card">
                 <h3>Fridge Logger</h3>
-                <p>A full-stack Spring Boot application with RESTful APIs for managing warehouse stock levels.</p>
-                <div class="tags">#Java #SpringBoot #MySql</div>
+                <p>A sophisticated full-stack inventory management system. Features include secure JWT authentication, real-time expiry tracking, and a responsive React frontend. Built with production stability in mind, utilizing automated CI/CD pipelines.</p>
+                <div class="tags">#Java #SpringBoot #MySQL #React #JWT #CI/CD</div>
                 
                 <div class="project-links">
                     <a href="https://fridgelogger.com" target="_blank">Visit Site →</a>
@@ -62,24 +71,24 @@
 
                 <div class="project-gallery">
                     <div class="gallery-item">
-                        <img src="images/FLlogin.png" alt="Login Screen">
-                        <span>Login Screen</span>
+                        <img src="images/FLlogin.png" alt="Secure Authentication">
+                        <span>Authentication</span>
                     </div>
                     <div class="gallery-item">
-                        <img src="images/FLdashboard.png" alt="Dashboard">
+                        <img src="images/FLdashboard.png" alt="Dynamic Dashboard">
                         <span>Dashboard</span>
                     </div>
                     <div class="gallery-item">
-                        <img src="images/FLfridgeview.png" alt="Fridge View">
-                        <span>Fridge View</span>
+                        <img src="images/FLfridgeview.png" alt="Inventory Management">
+                        <span>Inventory</span>
                     </div>
                 </div>
             </div>
 
             <div class="project-card">
                 <h3>NetPulse</h3>
-                <p>NetPulse is a lightweight, high-performance network monitoring tool designed for real-time latency tracking and availability analysis.</p>
-                <div class="tags">#Microservices #Java #Docker</div>
+                <p>A high-performance network monitoring tool designed for microservices architectures. Provides real-time latency tracking and availability analysis using Java-based backend services, fully containerized for scalable deployment.</p>
+                <div class="tags">#Java #Microservices #Docker #REST #Networking</div>
 
                 <div class="project-links">
                     <a href="https://github.com/Jimmy-Grafstrom/NetPulse" target="_blank">View Code →</a>
@@ -87,7 +96,7 @@
 
                 <div class="project-gallery">
                     <div class="gallery-item">
-                        <img src="images/NetPulse-snapshot.png" alt="NetPulse Interface">
+                        <img src="images/NetPulse-snapshot.png" alt="Real-time Monitoring">
                         <span>Monitoring Interface</span>
                     </div>
                 </div>
@@ -95,8 +104,8 @@
 
             <div class="project-card">
                 <h3>To-Do List</h3>
-                <p>A group project in Spring Boot with server-side rendering using Thymeleaf and Jenkins for CI/CD.</p>
-                <div class="tags">#Java #SpringBoot #Thymeleaf #Jenkins</div>
+                <p>A collaborative task management platform developed in an Agile team environment. Implements Server-Side Rendering (SSR) with Thymeleaf and features an automated CI/CD workflow integrated with Jenkins.</p>
+                <div class="tags">#Java #SpringBoot #Thymeleaf #Jenkins #Agile</div>
 
                 <div class="project-links">
                     <a href="https://intelligent-kerrie-jimmy-grafstrom-f39488fb.koyeb.app/" target="_blank">Visit Site →</a>
@@ -106,11 +115,11 @@
 
                 <div class="project-gallery">
                     <div class="gallery-item">
-                        <img src="images/todolistDash.png" alt="To-Do List Dashboard">
+                        <img src="images/todolistDash.png" alt="Team Dashboard">
                         <span>Dashboard</span>
                     </div>
                     <div class="gallery-item">
-                        <img src="images/TodoWO.png" alt="Task Management">
+                        <img src="images/TodoWO.png" alt="Task Management System">
                         <span>Task Management</span>
                     </div>
                 </div>
@@ -118,8 +127,8 @@
 
             <div class="project-card">
                 <h3>Chat Application</h3>
-                <p>Real-time chat application built in Jakarta EE with Glassfish as the application server.</p>
-                <div class="tags">#Java #JakartaEE #WebSockets</div>
+                <p>A real-time communication platform built on Jakarta EE standards. Leverages WebSockets for low-latency messaging and multi-user synchronization, running on Glassfish application server.</p>
+                <div class="tags">#Java #JakartaEE #WebSockets #Glassfish</div>
 
                 <div class="project-links">
                     <a href="https://github.com/Jimmy-Grafstrom/lab-appuser" target="_blank">View Client Code →</a>
@@ -128,11 +137,11 @@
 
                 <div class="project-gallery">
                     <div class="gallery-item">
-                        <img src="images/ChatAppLogin.png" alt="Chat Application Login">
+                        <img src="images/ChatAppLogin.png" alt="Real-time Messaging">
                         <span>Login Screen</span>
                     </div>
                     <div class="gallery-item">
-                        <img src="images/ChatDashboard.png" alt="Chat Dashboard">
+                        <img src="images/ChatDashboard.png" alt="Chat Interface">
                         <span>Chat Dashboard</span>
                     </div>
                 </div>
@@ -152,7 +161,6 @@
     </div>
 
     <script>
-        // Lightbox logic
         const lightbox = document.getElementById('lightbox');
         const lightboxImg = document.getElementById('lightbox-img');
         const captionText = document.getElementById('caption');
