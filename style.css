@@ -19,11 +19,40 @@ header {
 
 h1 { margin: 0; font-size: 2.5rem; }
 
+.header-links {
+    margin-top: 15px;
+}
+
+.header-links a {
+    color: #e17055;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
 h2 {
     color: #2c3e50;
     border-bottom: 3px solid #e17055;
     display: inline-block;
     margin-top: 40px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill-category {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .project-card {
@@ -42,13 +71,20 @@ h2 {
     font-weight: bold;
 }
 
-.project-card a {
+.project-links {
+    margin-top: 15px;
+}
+
+.project-links a {
     color: #0984e3;
     text-decoration: none;
     font-weight: 600;
+    margin-right: 20px;
 }
 
-.project-card a:hover { text-decoration: underline; }
+.project-links a:hover {
+    text-decoration: underline;
+}
 
 footer {
     text-align: center;
